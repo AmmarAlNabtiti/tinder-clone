@@ -1,0 +1,40 @@
+.SwipeBtn {
+  position: fixed;
+  bottom: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+.btn {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.ReplyIcon {
+  color: #f5b748;
+}
+.CloseIcon {
+  color: #ec5e6f;
+}
+.StarRateIcon {
+  color: #62b5f9;
+}
+.FavoriteIcon {
+  color: #f72c2c;
+}
+
+.FlashOnIcon {
+  color: palevioletred;
+}
+
+.SwipeBtn .MuiButtonBase-root {
+  box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3);
+  width: 70px;
+  height: 70px;
+}
